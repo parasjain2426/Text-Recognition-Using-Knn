@@ -1,5 +1,5 @@
 function[pracset]=nice()
-x=imread('ABC.jpg');
+x=imread('ABC.jpg');  %Upload your text image here
 %K = imresize(x,[20 15]);
 BW1 = im2bw(x,0.4);
 imshow(BW1)
