@@ -1,6 +1,6 @@
 clear all;
 clc;
-x=load('checkalphatrainfinal.txt');
+x=load('checkalphatrainfinal.txt'); %dataset for 5 alphabets
 x1=x(:,1:end-1);
 x2=x(:,end);
 [y1]=nice();
